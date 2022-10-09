@@ -249,7 +249,7 @@ Status: 발표 및 문서
 
 [ERD](https://github.com/qooktree1/DreamMungz/blob/main/exec/ERD.PNG)
 
-[아키텍처]()
+[아키텍처](https://github.com/qooktree1/DreamMungz/blob/main/exec/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.PNG)
 
 [기능 명세서]()
 
