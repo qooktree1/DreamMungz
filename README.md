@@ -251,11 +251,7 @@ Status: 발표 및 문서
 
 [아키텍처](https://github.com/qooktree1/DreamMungz/blob/main/exec/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.PNG)
 
-[기능 명세서]()
-
 [시연시나리오](https://github.com/qooktree1/DreamMungz/blob/main/exec/%EC%8B%9C%EC%97%B0%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4.pdf)
-
-[와이어프레임]()
 
 ---
 
