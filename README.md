@@ -247,7 +247,7 @@ Status: 발표 및 문서
 
 [포팅매뉴얼](https://lab.ssafy.com/s07-blockchain-nft-sub2/S07P22A605/-/blob/main/exec/%ED%8F%AC%ED%8C%85%EB%A7%A4%EB%89%B4%EC%96%BC_%EB%93%9C%EB%A6%BC%EB%A9%8D%EC%A6%88.pdf)
 
-[ERD](https://lab.ssafy.com/s07-blockchain-nft-sub2/S07P22A605/-/blob/main/exec/ERD.PNG)
+[ERD](https://github.com/qooktree1/DreamMungz/blob/main/exec/ERD.PNG)
 
 [아키텍처](https://lab.ssafy.com/s07-blockchain-nft-sub2/S07P22A605/-/blob/main/exec/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.PNG)
 
