@@ -212,13 +212,84 @@ Status: 발표 및 문서
 ### **Back**
 
 ```markdown
-
+backend
+	├── gradle
+	│   └── wrapper
+	└── src
+	    ├── main
+	    │   ├── java
+	    │   │   └── dreammungz
+	    │   │       ├── api
+	    │   │       │   ├── controller
+	    │   │       │   ├── dto
+	    │   │       │   │   ├── achievement
+	    │   │       │   │   ├── auth
+	    │   │       │   │   ├── game
+	    │   │       │   │   ├── nft
+	    │   │       │   │   │   ├── end
+	    │   │       │   │   │   └── list
+	    │   │       │   │   └── trade
+	    │   │       │   └── service
+	    │   │       ├── config
+	    │   │       │   ├── auth
+	    │   │       │   ├── jwt
+	    │   │       │   ├── querydsl
+	    │   │       │   └── swagger
+	    │   │       ├── db
+	    │   │       │   ├── entity
+	    │   │       │   └── repository
+	    │   │       ├── enums
+	    │   │       ├── exception
+	    │   │       ├── filter
+	    │   │       └── interceptor
+	    │   └── resources
+	    └── test
+	        └── java
+	            └── dreammungz
 ```
 
 ### Front
 
 ```markdown
-
+frontend
+		├── public
+		│   ├── assets
+		│   ├── audios
+		│   └── images
+		└── src
+		    ├── api
+		    ├── assets
+		    ├── components
+		    │   ├── achievement
+		    │   ├── button
+		    │   ├── carousel
+		    │   ├── content
+		    │   ├── filter
+		    │   ├── game
+		    │   ├── login
+		    │   ├── modal
+		    │   ├── museum
+		    │   ├── music
+		    │   ├── navbar
+		    │   ├── nftDetail
+		    │   ├── nftHistory
+		    │   ├── nftInfo
+		    │   ├── nftList
+		    │   ├── pagination
+		    │   ├── spinner
+		    │   ├── tab
+		    │   ├── tutorial
+		    │   └── userInfo
+		    ├── pages
+		    ├── recoil
+		    │   ├── game
+		    │   ├── list
+		    │   ├── member
+		    │   ├── music
+		    │   ├── tooltip
+		    │   └── trade
+		    ├── types
+		    └── utils
 ```
 
 ---
@@ -259,8 +330,123 @@ Status: 발표 및 문서
 
 ### 로그인
 
+- 메타마스크 로그인을 진행하며 MUNG 토큰을 추가합니다.
+    
+    ![login.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb853819-e976-4a0c-acf9-16a4314fc096/login.gif)
+    
+
+### 메인 페이지
+
+- 튜토리얼 바로가기, 업데이트 내용 확인, 발행된 NFT 를 구경할 수 있습니다.
+    
+    ![mainpage.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/280457b9-455b-484b-aefe-15b9202a22e1/mainpage.gif)
+    
+
 ### 게임 컨텐츠
+
+- 게임에 등장하는 모든 스토리와 삽화를 구경할 수 있습니다.
+    
+    ![contents.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9e2c415-1d69-4893-bd61-0bfc47f543f6/contents.gif)
+    
 
 ### 튜토리얼
 
-###
+- 로그인, 게임, 거래 튜토리얼을 통해 서비스를 이용하는데 필요한 정보를 제공합니다.
+    
+    ![tutorial.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/422192d4-fb51-4c44-b850-6a06a1debd77/tutorial.gif)
+    
+
+### 게임
+
+- **게임 시작**
+    - 아기 강아지 모드 - 100 MUNG 을 지불하여 스탯이 0인 상태로 시작합니다.
+    - 웨딩 모드 - 부모 NFT의 능력치를 합산한 스탯을 가진채 시작합니다.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3bf6214a-0b30-4a82-bab0-1e8ea03d81f0/Untitled.png)
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c8cc0ea4-038c-427d-982f-addf4bdb229d/Untitled.png)
+        
+
+- **게임 진행**
+    - 게임을 진행하며 다양한 선택지를 선택하며 능력치를 올리거나 내리며 강아지를 육성할 수 있습니다.
+    - 게임이 시작되면 자동으로 테마곡이 진행됩니다.
+        
+        ![game-play.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40187951-e325-4ad5-a656-b4f962d85e16/game-play.gif)
+        
+    
+- **게임 엔딩**
+    - NFT 민팅을 진행하며 지금까지 거쳐온 스토리를 볼 수 있는 엔딩 크레딧이 있습니다.
+    - 민팅이 완료되면 강아지 구경 탭으로 이동합니다.
+        
+        ![game-ending.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1195560a-6169-4350-9b5f-b8aacdd1c662/game-ending.gif)
+        
+    
+
+### 마이페이지
+
+- **보유 NFT**
+    - 본인이 소유한 NFT를 볼 수 있습니다.
+        
+        ![mypage-mynft.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9c5c9a93-b740-43df-a553-fa6ba8100217/mypage-mynft.gif)
+        
+
+- **업적**
+    - 현재까지 얻었던 직업과 최고 등급을 볼 수 있습니다.
+    - 얻지 못한 직업은 자물쇠로 잠겨있습니다.
+        
+        ![mypage-achievements.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40c1cfdf-c20c-43b1-a576-acaa68c44701/mypage-achievements.gif)
+        
+    
+- **박물관**
+    - 3D NFT 전시관을 이용할 수 있으며 가장 등급이 높은 6개의 NFT가 액자에 걸려있습니다.
+    - 본인 뿐만 아니라 다양한 사람들이 구경할 수 있습니다.
+        
+        ![mypage-museum.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69e56195-bcb0-446b-bb22-8a14967bb7cc/mypage-museum.gif)
+        
+
+- **거래 & 제안 내역**
+    - 본인이 구매 or 판매한 NFT 거래 기록 및 제안 기록을 볼 수 있습니다.
+        
+        ![mypage-tradelist.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2304b1f8-c471-41a4-9bb6-51277ed67b0b/mypage-tradelist.png)
+        
+
+### 거래
+
+- 주로 NFT 상세페이지에서 이루어집니다.
+- NFT 특징, 거래 이력, 가격 제안 이력을 확인할 수 있습니다.
+
+- **판매등록**
+    - 즉시 구매 가격과 가격 제안 여부를 설정 한 후 판매 등록을 할 수 있습니다.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8d6e0cac-d2a9-4bbb-9349-c604645b216a/Untitled.png)
+        
+
+- **판매 중단**
+    - NFT 판매자는 판매 중지를 할 수 있습니다.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/655ab74f-55e0-4fd7-ad81-a2544b6d719e/Untitled.png)
+        
+    
+- **즉시구매와 가격 제안하기**
+    - NFT를 구매하고 싶을 경우 판매자가 설정한 가격을 지불하여 즉시 구매 하거나 판매자에게 판매 가격을 제안할 수 있습니다. 제안 또한 즉시 구매와 마찬가지로 제안한 가격을 지불합니다.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb649ce4-36ca-49d5-8928-73d1327b8ac0/Untitled.png)
+        
+    
+- **제안 취소**
+    - 본인이 가격 제안한 내역을 ❌ 버튼을 클릭하여 취소할 수 있습니다.
+    - 취소 할 경우 가격 제안할 때 소비되었던 MUNG 토큰을 환불 받습니다.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3abca232-0129-48a9-9457-4b7e0e21607d/Untitled.png)
+        
+
+- **제안 채택**
+    - 판매자의 경우 원하는 제안의 ✅ 버튼을 클릭해서 제안을 수락할 수 있습니다.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca76fc94-81dc-4a57-a71d-fb863b67d3d2/Untitled.png)
+        
+
+- **환불 받기**
+    - 마이 페이지 내의 제안 내역 탭에서 **환불 가능** 을 클릭하여 환불을 받을 수 있습니다.
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/287e3163-c44f-4832-b740-2919db7b0e35/Untitled.png)
