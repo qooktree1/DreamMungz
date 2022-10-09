@@ -1,0 +1,65 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        brown: {
+          DEFAULT: "#6A3900",
+          100: "#e1d7cc",
+          200: "#c3b099",
+          300: "#a68866",
+          400: "#886133",
+          500: "#6a3900",
+          600: "#552e00",
+          700: "#402200",
+          800: "#2a1700",
+          900: "#150b00",
+        },
+        lgBrown: {
+          DEFAULT: "#B39474",
+          100: "#f0eae3",
+          200: "#e1d4c7",
+          300: "#d1bfac",
+          400: "#c2a990",
+          500: "#b39474",
+          600: "#8f765d",
+          700: "#6b5946",
+          800: "#483b2e",
+          900: "#241e17",
+        },
+        beige: {
+          DEFAULT: "#eee3c8",
+          100: "#fcf9f4",
+          200: "#f8f4e9",
+          300: "#f5eede",
+          400: "#f1e9d3",
+          500: "#eee3c8",
+          600: "#beb6a0",
+          700: "#8f8878",
+          800: "#5f5b50",
+          900: "#302d28",
+        },
+        pink: {
+          DEFAULT: "#eec3c8",
+          100: "#fcf3f4",
+          200: "#f8e7e9",
+          300: "#f5dbde",
+          400: "#f1cfd3",
+          500: "#eec3c8",
+          600: "#be9ca0",
+          700: "#8f7578",
+          800: "#5f4e50",
+          900: "#302728",
+        },
+      },
+    },
+  },
+  plugins: [
+    require("tw-elements/dist/plugin"),
+    require("tailwind-scrollbar-hide"),
+  ],
+}

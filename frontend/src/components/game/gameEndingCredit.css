@@ -1,0 +1,39 @@
+#target {
+  position: absolute;
+  top: -3500px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
+#target > div {
+  padding-top: 3500px;
+  animation: autoscroll 500s linear;
+}
+.full-game-epilogue:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 100%); */
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0) 100%
+  );
+  pointer-events: none;
+}
+
+@keyframes autoscroll {
+  to {
+    margin-top: -50000px;
+  }
+}
+
+/* AUTO SCROLL  AUTO SCROLL  AUTO SCROLL  AUTO SCROLL  AUTO SCROLL  AUTO SCROLL  AUTO SCROLL */

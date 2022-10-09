@@ -1,0 +1,17 @@
+package dreammungz.db.repository;
+
+import dreammungz.db.entity.Story;
+import dreammungz.enums.StoryType;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+/*
+@author 황승주
+@since 2022. 09. 07.
+*/
+
+public interface StoryRepository extends JpaRepository<Story, Long> {
+    List<Story> findAllByType(StoryType storyType);
+    Story findByType(StoryType storyType);
+}

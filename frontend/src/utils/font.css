@@ -1,0 +1,10 @@
+@import url("https://webfontworld.github.io/ridi/RidiBatang.css");
+@import url("https://webfontworld.github.io/NexonMaplestory/NexonMaplestory.css");
+
+.ridiBatang {
+  font-family: "RidiBatang";
+}
+
+.mapleStory {
+  font-family: "NexonMaplestory";
+}
